@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7p87p8e6bg7r"]
+
+[ext_resource type="Script" uid="uid://dahujfipcxj10" path="res://scripts/plotQuadratic2D.gd" id="3_t0wiv"]
+
+[node name="Node2D_PlotQuadratic" type="Node2D"]
+script = ExtResource("3_t0wiv")

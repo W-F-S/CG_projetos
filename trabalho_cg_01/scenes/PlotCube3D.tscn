@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dk4546yr3ocul"]
+
+[ext_resource type="Script" uid="uid://mtb1rji1llx7" path="res://scripts/PlotCube.gd" id="1_jgff1"]
+[ext_resource type="ArrayMesh" uid="uid://bypr3rqlmqphc" path="res://meshs/Modelo_poligono2_Cube_001.res" id="2_qrpbu"]
+
+[node name="Node3D_PlotCube" type="Node3D"]
+script = ExtResource("1_jgff1")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.95063496, 0.31031144, 0, -0.31031144, 0.95063496, 0, 2.5420737, 6.376183)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="ModeloPoligono2Cube001" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6374731, 0, 0.7107934)
+mesh = ExtResource("2_qrpbu")
